@@ -112,13 +112,13 @@ a {
   margin-left: 15px;
   /*font-family: Advent, Helvetica, Arial, sans-serif;*/ }
 
-.nav li {
+.nav li.nav-link {
   display: inline;
   padding-right: 12px;
   padding-left: 12px;
   font-size: 1.3em; }
 
-.nav li:hover {
+.nav li.nav-link a:hover {
   border-bottom: solid 5px #7884b4; }
 
 .nav li.current {
@@ -126,6 +126,10 @@ a {
 
 .nav-header > li {
   padding-top: 7px; }
+
+ul.dropdown-menu li.text-divider {
+  padding: 3px 20px;
+  border-top: solid 1px #e5e5e5; }
 
 .icon {
   font-size: 1.4em;

@@ -24,16 +24,47 @@ html(lang='en')
                     a(href="/").brand
                       img(src="images/logo-small-white.png")
                     ul.nav.nav-header
-                      li
+                      li.nav-link
                         a(href="#engineering") Engineering
-                      li
+                      li.nav-link
                         a(href="#results") Results
-                      li
+                      li.nav-link
                         a(href="#opportunities") Opportunities
-                      li
-                        a(href="#contact")Contact
-                      li
-                        a(href="#employees") Employees
+                    ul.nav.nav-header.pull-right
+                      li.dropdown
+                        div
+                          button.btn.btn-navbar(style="display:block;")(data-toggle="dropdown")(data-target="#")
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                          ul.dropdown-menu.pull-right(role="menu")
+                            li
+                              a(href="/locations")
+                                i.icon.icon-white.icon-road
+                                span Locations
+                            li
+                              a(href="#")
+                                i.icon.icon-white.icon-info-sign
+                                span About Us
+                            li.text-divider Employee Links
+                            li
+                              a(href="https://webmail.six3systems.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.six3systems.com%2fowa%2f")
+                                i.icon.icon-white.icon-envelope
+                                span Email
+                            li
+                              a(href="https://timesheet.six3systems.com/DeltekTC/welcome.msv")
+                                i.icon.icon-white.icon-time
+                                span Timesheet
+                            li
+                              a(href="")
+                                i.icon.icon-white.icon-medkit
+                                span Benefits
+                            li
+                              a(href="")
+                                i.icon.icon-white.icon-phone
+                                span Contacts
+
+
         block content
 
     div#footer
